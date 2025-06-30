@@ -1,0 +1,212 @@
+.banner {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  width: 75%;
+  height: 37.4vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.banner-container .banner-lt {
+  width: 65%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.banner-container .banner-lt .swiper-slide{
+    height: 600px;
+    background-color: #000000;
+}
+
+.banner-container .banner-lt .swiper-wrapper{
+    height: 600px;
+    background-color: #000000;
+}
+
+.banner-container .banner-rt{
+    width: 30%;
+}
+
+.banner-container .banner-rt .b-top{
+    margin-bottom: 20px;
+}
+
+.banner-container .banner-rt .b-top h2{
+    color: #F5C518;
+    font-size: 20px;
+}
+
+.banner-container .banner-rt .b-bottom{
+    background: linear-gradient(to bottom, #111111 0%, #000000 35%);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+    padding: 20px;
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-thumb{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZmFhNWY1MjEtZTkyZS00ZWIzLTk4ZWItMDM0MzliNmE1ZGZhXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg);
+    width: 88px;
+    height: 7.5vw;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.banner-container .banner-rt .b-bottom .b-det{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-info > span{
+    color: rgba(255, 255, 255, 0.523);
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    z-index: 2;
+    bottom: 10px;
+    left: 1px;
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-info h3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-info p{
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.523);
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-info .likes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: end;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.523);
+}
+
+.banner-container .banner-rt .b-bottom .b-det .det-info .likes span{
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.banner-container .banner-rt .b-bottom .b-browse{
+    color: white;
+    font-size: 20px;
+}
+
+.banner-container .banner-lt .b-main-det{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    bottom: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+    /* background-color: #fff; */
+}
+
+.banner-container .banner-lt .b-main-det::after{
+    content: "";
+    position: relative;
+    bottom: 189px;
+    width: 100%;
+    height: 100px;
+    box-shadow: -9px -18px 400px 115px rgba(0,0,0,1);
+    background-color: #000000;
+}
+
+.banner-container .banner-lt .b-main-det .b-main-card{
+    border-radius: 10px;
+    z-index: 40;
+    width: 165px;
+    height: 13.983vw;
+    background-size: cover;
+    top: -160px;
+    left: 20px;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZmFhNWY1MjEtZTkyZS00ZWIzLTk4ZWItMDM0MzliNmE1ZGZhXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg);
+}
+
+.banner-container .banner-lt .b-main-det .b-main-info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.banner-container .banner-lt .b-main-det svg{
+    left: 220px;
+    bottom: 10px;
+    z-index: 45;
+}
+
+.banner-container .banner-lt .b-main-det p{
+    font-size: 20px;
+    left: 320px;
+    color: rgba(255, 255, 255, 0.523);;
+    z-index: 45;
+}
+
+.banner-container .banner-lt .b-main-det span{
+    left: 750px;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 45;
+}
+
+.banner-container .banner-lt .b-main-det span{
+    left: 750px;
+    bottom: 10px;
+    color: rgba(255, 255, 255, 0.523);
+    z-index: 45;
+}
+
+.banner-container .banner-lt .b-main-det h2{
+   color: white;
+   font-size: 32px;
+   font-weight: 400;
+   left:320px;
+   bottom: 10px;
+   text-align: start;
+   z-index: 45;
+}
+
+.banner-container .banner-lt .b-main-det .b-main-likes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: end;
+    gap: 5px;
+    left:320px;
+    top: 20px;
+    z-index: 45;
+ }

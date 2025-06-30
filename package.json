@@ -1,0 +1,16 @@
+{
+  "name": "imdb",
+  "version": "1.0.0",
+  "description": "imdb-project",
+  "license": "ISC",
+  "author": "Kasra-Shakib",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {}
+}
