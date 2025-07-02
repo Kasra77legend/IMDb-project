@@ -1,12 +1,21 @@
 @import url(./home/header.css);
-@import url(./home/nav.css);
-@import url(./home/banner.css);
+/* @import url(./home/banner.css); */
 @import url(./home/slider.css);
-@import url(./home/features.css);
-@import url(./home/products.css);
-@import url(./home/category.css);
-@import url(./home/contact.css);
-@import url(./home/footer.css);
-@import url(./kala/productlist.css);
-@import url(./log-in/login.css);
-@import url(./sign-up/singup.css);
+@import url(./home/FeaturedToday.css);
+@import url(./home/MostPopular.css);
+@import url(./home/WhatToWatch.css);
+@import url(./home/TopTen.css);
+@import url(./home/PopularInterests.css);
+@import url(./home/exclusive.css);
+@import url(./home/MoreExplore.css);
+@import url(./home/BornToday.css);
+@import url(./home/news.css);
+@import url(./home/recent.css);
+@import url(./home/Footer.css);
+
+.desktop{
+    display: none;
+}
+.mobile{
+    display: none;
+}

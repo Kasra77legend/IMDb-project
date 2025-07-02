@@ -1,0 +1,155 @@
+body{
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.header-container{
+    width: 75%;
+    min-width: 1024px;
+    height: 56px;
+    background-color: #121212;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.header-container .logo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container .logo img{
+    width: 64px;
+    cursor: pointer;
+}
+
+.header-container .menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.header-container .menu h4{
+    color: #ffffff;
+}
+
+.search-container {
+    position: relative;
+    width: 60%;
+    height: 32px;
+}
+
+.search-wrapper {
+    height: 99%;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+
+.category-select {
+    width: 58px;
+    border: none;
+    outline: none;
+    background: #f8f8f8;
+    padding: 0px 9px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #333;
+    border-right: 2px solid #4b4b4b2b;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+.search-input {
+    width: 88%;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #333;
+}
+
+.search-button {
+    background: white;
+    border: none;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.imdb-pro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imdb-pro h5:nth-of-type(1){
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.imdb-pro h5:nth-of-type(2){
+    color: #00ABD2;
+    font-size: 14px;
+    font-weight: 900;
+
+}
+
+.line-for-head h2{
+    color: #38383877;
+    font-size: 39px;
+    font-weight: 10;
+}
+
+.watchlist{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.watchlist h5{
+    color: white;
+    font-size: 14px;
+}
+
+.signin button{
+    color: white;
+    background-color: #121212;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.lan .lan-select{
+    color: white;
+    background-color: #121212;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}

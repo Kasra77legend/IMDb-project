@@ -45,7 +45,8 @@
 .exclusive-container .swiper-slide img {
   width: 25vw;
   min-width: 333px;
-  border-radius: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .exclusive-container .swiper-slide .exclusive-info {

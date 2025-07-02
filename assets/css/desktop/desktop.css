@@ -12,3 +12,10 @@
 @import url(./home/news.css);
 @import url(./home/recent.css);
 @import url(./home/Footer.css);
+
+.tablet{
+    display: none;
+}
+.mobile{
+    display: none;
+}
