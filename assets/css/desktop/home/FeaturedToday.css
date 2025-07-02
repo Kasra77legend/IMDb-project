@@ -1,9 +1,18 @@
 .featured-today{
-  margin-left: 200px;
+  width: 74vw;
+  min-width: 999px;
+  margin-top: 26px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 40px;
+  margin: 0 auto;
 }
 
 .featured-today-container{
   width: 49vw;
+  min-width: 680px;
   overflow: hidden;
   display: flex;
   flex-flow: column wrap;
@@ -20,8 +29,21 @@
 
 .featured-today-container .swiper-slide img{
   width: 23vw;
+  min-width: 315px;
   position: relative;
   border-radius: 10px;
+}
+
+.featured-today-container .swiper-slide .picture{
+  position: relative;
+  min-width: 315px;
+}
+
+.featured-today-container .swiper-slide .picture svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 45;
 }
 
 .featured-today-container .swiper-slide::after {
@@ -33,13 +55,6 @@
   height: 30%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
   pointer-events: none;
-}
-
-.featured-today-container .swiper-slide svg{
-  position: absolute;
-  top: 170px;
-  right: 350px;
-  z-index: 45;
 }
 
 .featured-today-container .swiper-slide h2{

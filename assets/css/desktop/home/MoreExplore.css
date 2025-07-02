@@ -9,6 +9,7 @@
 
 .more-explore-container {
   width: 75vw;
+  min-width: 999px;
   overflow: hidden;
   display: flex;
   flex-flow: column wrap;
@@ -46,6 +47,7 @@
 
 .more-explore-container .swiper-slide img {
   width: 23vw;
+  min-width: 316px;
   position: relative;
   border-radius: 10px;
 }
@@ -61,10 +63,14 @@
   pointer-events: none;
 }
 
-.more-explore-container .swiper-slide svg {
+.more-explore-container .swiper-slide .picture-me {
+  position: relative;
+}
+
+.more-explore-container .swiper-slide .picture-me svg {
   position: absolute;
-  top: 170px;
-  right: 350px;
+  bottom: 0;
+  left: 0;
   z-index: 45;
 }
 

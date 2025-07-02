@@ -9,6 +9,7 @@
 
 .what-to-watch-container {
   width: 74vw;
+  min-width: 999px;
   overflow: hidden;
   display: flex;
   flex-flow: column wrap;

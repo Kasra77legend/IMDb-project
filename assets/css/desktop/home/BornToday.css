@@ -8,6 +8,7 @@
   
   .born-today-container{
     width: 74vw;
+    min-width: 999px;
     overflow: hidden;
     display: flex;
     flex-flow: column wrap;
@@ -45,6 +46,7 @@
   
   .born-today-container .swiper-slide img{
     width: 11vw;
+    min-width: 152px;
     border-radius: 1000px;
     transition: 200ms;
   }

@@ -9,6 +9,7 @@
 
 .news-container {
   width: 75vw;
+  min-width: 999px;
   overflow: hidden;
   display: flex;
   flex-flow: column wrap;
@@ -54,12 +55,12 @@
 }
 
 .news-container .swiper-slide .news-info img {
-  width: 5.7vw;
+  width: 90px;
   border-radius: 8px;
 }
 
 .news-container .swiper-slide .news-info h2 {
-  width: 18.5vw;
+  width: 16vw;
   text-align: start;
   color: white;
   font-size: 16px;

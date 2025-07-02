@@ -9,6 +9,7 @@ footer {
 
 footer .footer-container {
   width: 74vw;
+  min-width: 1024px;
   overflow: hidden;
   display: flex;
   flex-flow: column wrap;
@@ -30,6 +31,7 @@ footer .footer-container button {
 
 footer .footer-container .social-media{
   width: 47vw;
+  min-width: 819px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -38,6 +40,7 @@ footer .footer-container .social-media{
 
 footer .footer-container .social-media .social{
   width: 23vw;
+  min-width: 401px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -64,6 +67,7 @@ footer .footer-container .social-media .social h2{
 
 footer .footer-container .social-media .app{
   width: 23vw;
+  min-width: 401px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
