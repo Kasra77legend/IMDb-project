@@ -1,15 +1,16 @@
 .recent{
-    margin-top: 26px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    background-color: #121212;
+    margin-bottom: 30px;
   }
   
 .recent-container{
-    width: 74vw;
-    min-width: 999px;
+  width: 100%;
+  padding-left: 10px;
+  margin: 20px 0;
     overflow: hidden;
     display: flex;
     flex-flow: column wrap;
@@ -21,39 +22,33 @@
 .recent-container .recent-title{
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
   }
 
 .recent-container .recent-title > h4{
     color: #5799EF;
     font-size: 14px;
     font-weight: 600;
-    margin-right: 14px;
+    margin-right: 12px;
     margin-bottom: 16px;
   }
 
   .recent-container .recent-title > h2{
     color: white;
-    font-size: 24px;
-    margin-bottom: 16px;
-  }
-
-  .recent-container .swiper-slide{
-    margin: 0 5px;
+  font-size: 18px;
+  margin-bottom: 16px;
   }
 
   .recent-container .swiper-slide img{
-    width: 12vw;
-    min-width: 152px;
+    width: 39vw;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
 
   .recent-container .swiper-slide h3{
-    width: 12vw;
-    min-width: 152px;
+    width: 39vw;
     background-color: #1A1A1A;
     color: whitesmoke;
     font-size: 16px;

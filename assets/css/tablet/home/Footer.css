@@ -23,7 +23,7 @@ footer .footer-container .f-button-container{
 
 footer .footer-container .footer-app{
   width: 100%;
-  height: 100px;
+  height: 68px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -32,13 +32,13 @@ footer .footer-container .footer-app{
 }
 
 footer .footer-container .footer-app button{
-  width: 230px;
-  height: 50px;
+  width: 180px;
+  height: 36px;
   padding: 0 32px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #f5c518;
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 16px;
   border: none;
   outline: none;
@@ -46,7 +46,7 @@ footer .footer-container .footer-app button{
 
 footer .footer-container .footer-sign-in{
   width: 100%;
-  height: 100px;
+  height: 68px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -55,10 +55,10 @@ footer .footer-container .footer-sign-in{
 }
 
 footer .footer-container .footer-sign-in button{
-  width: 280px;
-  height: 50px;
+  width: 220px;
+  height: 36px;
   padding: 0 32px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #222222;
   color: #5799EF;
   font-weight: 500;
@@ -96,7 +96,7 @@ footer .footer-container .first-options h4{
 }
 
 footer .footer-container .second-oprions{
-  max-width: 800px;
+  max-width: 650px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
