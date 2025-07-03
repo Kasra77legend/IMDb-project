@@ -1,184 +1,151 @@
 .banner {
-  margin-top: 40px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner-container {
-  width: 81%;
-  min-width: 999px;
-  height: 37.4vw;
-  min-height: 442px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: start;
-  gap: 20px;
-  overflow: hidden;
-}
-
-.banner-container .banner-lt {
-  position: relative;
-  width: 65%;
-  height: auto;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.banner-container .banner-lt .swiper-slide{
-    height: 600px;
-    background-color: #000000;
-}
-
-.banner-container .banner-lt .swiper-wrapper{
-    height: 600px;
-    background-color: #000000;
-}
-
-.banner-container .banner-rt{
-    width: 30%;
-}
-
-.banner-container .banner-rt .b-top{
-    margin-bottom: 20px;
-}
-
-.banner-container .banner-rt .b-top h2{
-    color: #F5C518;
-    font-size: 20px;
-}
-
-.banner-container .banner-rt .b-bottom{
-    background: linear-gradient(to bottom, #111111 0%, #000000 35%);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+  }
+  
+  .banner-container {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: start;
-    gap: 7px;
-    padding: 20px;
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-thumb{
-    background-image: url(https://m.media-amazon.com/images/M/MV5BZmFhNWY1MjEtZTkyZS00ZWIzLTk4ZWItMDM0MzliNmE1ZGZhXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg);
-    width: 5.2vw;
-    min-width: 67px;
-    height: 7.5vw;
-    min-height: 100px;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.banner-container .banner-rt .b-bottom .b-det{
-    display: flex;
-    flex-flow: row;
-    justify-content: start;
-    align-items: start;
-    gap: 10px;
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-info > span{
-    color: rgba(255, 255, 255, 0.523);
-    font-size: 12px;
-    font-weight: 100;
-    position: relative;
-    z-index: 2;
-    bottom: 10px;
-    left: 1px;
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-info h3{
-    position: relative;
-    z-index: 2;
-    color: white;
-    font-size: 16px;
-    font-weight: 200;
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-info p{
-    position: relative;
-    z-index: 2;
-    color: rgba(255, 255, 255, 0.523);
-    font-size: 14px;
-    font-weight: 100;
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-info .likes{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    align-items: end;
-    gap: 5px;
-    color: rgba(255, 255, 255, 0.523);
-}
-
-.banner-container .banner-rt .b-bottom .b-det .det-info .likes span{
-    position: relative;
-    z-index: 2;
-    font-size: 12px;
-}
-
-.banner-container .banner-rt .b-bottom .b-browse{
-    color: white;
-    font-size: 20px;
-}
-
-.banner-container .banner-lt .b-main img{
-    width: 53.5vw;
-    min-width: 660px;
-    height: 34.5vw;
-    min-height: 442px;
-}
-
-.banner-container .banner-lt .b-main-det{
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: end;
-    gap: 20px;
-    position: absolute;
-    bottom: 0;
-}
-
-.banner
-
-.banner-container .banner-lt .b-main-det .b-main-card{
-    border-radius: 10px;
-    z-index: 40;
-    width: 9.9vw;
-    min-width: 131px;
-    height: 13.983vw;
-    min-height: 195px;
-    background-size: cover;
-    background-image: url(https://m.media-amazon.com/images/M/MV5BZmFhNWY1MjEtZTkyZS00ZWIzLTk4ZWItMDM0MzliNmE1ZGZhXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg);
-}
-
-.banner-container .banner-lt .b-main-det .b-main-info h2{
-    font-size: 24px;
-    color: white;
-    font-weight: 500;
-}
-
-.banner-container .banner-lt .b-main-det .b-main-info p{
-    font-size: 18px;
-    color: rgb(158, 158, 158);
-    font-weight: 500;
-}
-
-.banner-container .banner-lt .b-main-det .b-main-info .b-main-likes{
-    color: white;
+  }
+  
+  .banner-container .swiper-slide {
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
     align-items: center;
-    gap: 8px;
-}
-
-.banner-container .banner-lt .b-main-det > span{
+    gap: 10px;
+  }
+  
+  .banner-container h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .banner-container .swiper-slide .banner-img img {
+    width: 95vw;
+    border-radius: 18px;
+  }
+  
+  .banner-container .swiper-slide .banner-img {
+    position: relative;
+  }
+  
+  .banner-container .swiper-slide .banner-img::after {
+    content: "";
+    width: 95vw;
+    height: 53.6vw;
+    background: linear-gradient(to bottom, #11111100 0%, #000000d8 99%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .banner-container .swiper-slide .banner-info {
+    height: 110px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .banner-container .swiper-slide .banner-info .banner-thumbnail img {
+    width: 90px;
+    border-radius: 18px;
+  }
+  
+  .banner-container .swiper-slide .banner-info .banner-bottom-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-play-svg {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-play-svg
+    h5 {
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-text-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-text-info
+    h2 {
+    max-width: 150px;
     font-size: 16px;
     color: white;
-    font-weight: 500;
-}
-
+    font-weight: 700;
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-text-info
+    h3 {
+    font-size: 14px;
+    color: #afafaf;
+    font-weight: 700;
+  }
+  
+  .banner-container .swiper-slide .banner-info .banner-bottom-info .banner-likes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.523);
+  }
+  
+  .banner-container
+    .swiper-slide
+    .banner-info
+    .banner-bottom-info
+    .banner-likes
+    span {
+    font-size: 12px;
+  }
+  
