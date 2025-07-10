@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 31px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
   }
   
   .banner-container {
@@ -14,7 +14,7 @@
     display: flex;
     flex-flow: row ;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   
   .banner-container .swiper-slide {
@@ -30,8 +30,8 @@
     min-width: 325px;
     padding: 5px;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-flow: column ;
+    justify-content: space-between;
     align-items: start;
     gap: 10px;
   }
@@ -179,13 +179,12 @@
   .banner-container .banner-rt > h2{
     color: rgb(245, 197, 24);
     font-size: 20px;
-    margin-bottom: 35px;
   }
 
 
   .banner-container .banner-rt .banner-side-content .banner-side-info .banner-info {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row ;
     justify-content: start;
     align-items: center;
     gap: 10px;
