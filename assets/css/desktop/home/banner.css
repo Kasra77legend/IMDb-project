@@ -140,7 +140,7 @@
     .banner-bottom-info
     .banner-text-info
     h2 {
-    max-width: 26vw;
+     max-width: 26vw;
     font-size: clamp(24px, 2.3vw, 32px);
     color: white;
     font-weight: 500;
