@@ -47,9 +47,15 @@
   }
 
   .banner-container .banner-rt > h3{
+    cursor: pointer;
     font-size: 20px;
     color: white;
     font-weight: 700;
+    transition: 300ms;
+  }
+
+  .banner-container .banner-rt > h3:hover{
+    color: rgb(245, 197, 24);
   }
   
   .banner-container .swiper-slide .banner-img img {
@@ -65,6 +71,7 @@
   .banner-container .swiper-slide .banner-img::after {
     content: "";
     width: 53.44vw;
+    cursor: pointer;
     min-width: 660px;
     height: 30vw;
     min-height: 372px;
@@ -92,6 +99,7 @@
   }
   
   .banner-container .swiper-slide .banner-info .banner-bottom-info {
+    cursor: pointer;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -196,6 +204,7 @@
   }
   
   .banner-container .banner-rt .banner-side-content .banner-side-info .banner-info .banner-bottom-info {
+    cursor: pointer;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;

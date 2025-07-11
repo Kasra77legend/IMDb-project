@@ -25,6 +25,12 @@
   align-items: center;
 }
 
+.exclusive-container > p{
+  color: #B3B3B3;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .exclusive-container .exclusive-title > span {
   color: #f5c518;
   font-size: 22px;

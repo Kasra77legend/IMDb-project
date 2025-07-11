@@ -5,10 +5,12 @@ let MobileCloseButton = document.querySelector(".close-nav-mobile");
 
 MobileOpenButton.addEventListener("click",function(){
     MobileMenu.classList.add("OpenNav")
+    document.body.style.overflow = 'hidden';
 })
 
 MobileCloseButton.addEventListener("click",function(){
     MobileMenu.classList.remove("OpenNav")
+    document.body.style.overflow = 'unset';
 })
 
 
@@ -19,10 +21,12 @@ let TabletCloseButton = document.querySelector(".close-nav-tablet");
 
 TabletOpenButton.addEventListener("click",function(){
     TabletMenu.classList.add("OpenNav")
+    document.body.style.overflow = 'hidden';
 })
 
 TabletCloseButton.addEventListener("click",function(){
     TabletMenu.classList.remove("OpenNav")
+    document.body.style.overflow = 'unset';
 })
 
 

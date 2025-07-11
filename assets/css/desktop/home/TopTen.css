@@ -24,6 +24,12 @@
     align-items: center;
   }
 
+  .top-ten-container > p{
+    color: #B3B3B3;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
   .top-ten-container .top-ten-column-title{
     display: flex;
     flex-flow: column wrap;
@@ -42,7 +48,6 @@
   .top-ten-container .top-ten-title > h2{
     color: white;
     font-size: 24px;
-    margin-bottom: 16px;
   }
 
   .top-ten-container .top-ten-column-title > h4{

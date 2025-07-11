@@ -67,6 +67,7 @@
   }
   
   .banner-container .swiper-slide .banner-info .banner-bottom-info {
+    cursor: pointer;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
