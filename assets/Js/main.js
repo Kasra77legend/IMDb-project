@@ -3,14 +3,26 @@ let MobileMenu = document.querySelector(".nav-container-mobile");
 let MobileOpenButton = document.querySelector("#open-mobile-nav");
 let MobileCloseButton = document.querySelector(".close-nav-mobile");
 
+function lockScroll() {
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+  
+  
+  function unlockScroll() {
+    document.documentElement.style.overflow = '';
+    document.body.style.overflow = '';
+  }
+
+
 MobileOpenButton.addEventListener("click",function(){
     MobileMenu.classList.add("OpenNav")
-    document.body.style.overflow = 'hidden';
+    lockScroll()
 })
 
 MobileCloseButton.addEventListener("click",function(){
     MobileMenu.classList.remove("OpenNav")
-    document.body.style.overflow = 'unset';
+    unlockScroll()
 })
 
 
@@ -21,12 +33,12 @@ let TabletCloseButton = document.querySelector(".close-nav-tablet");
 
 TabletOpenButton.addEventListener("click",function(){
     TabletMenu.classList.add("OpenNav")
-    document.body.style.overflow = 'hidden';
+    lockScroll()
 })
 
 TabletCloseButton.addEventListener("click",function(){
     TabletMenu.classList.remove("OpenNav")
-    document.body.style.overflow = 'unset';
+    unlockScroll()
 })
 
 
